@@ -23,7 +23,7 @@ body{
 
 }
 
-header{
+.task-header{
     padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
@@ -152,3 +152,39 @@ main{
 .task .actions .delete{
     color: crimson;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    padding: 10px 14px;
+    background-color: lightblue;
+}
+.sidebar .image-text img{
+    width: 40px;
+    border-radius: 5px;
+
+}
+.sidebar header .image-text{
+    display: flex;
+    align-items: center;
+}
+.sidebar  .header-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark);
+}
+header .image-text .header-text{
+    display: flex;
+    flex-direction: column;
+}
+.main-task{
+    position: relative;
+}
+
+
+
+
+
